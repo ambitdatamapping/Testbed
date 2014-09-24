@@ -59,7 +59,7 @@ var app = {
 		Puship.GCM.Register(GCMCode,
 		{
 			successCallback: function (pushipresult){
-				navigator.notification.alert("device information has \nregistered on our system");
+				//navigator.notification.alert("device information has \nregistered on our system");
 			},
 			failCallback: function (pushipresult){
 				navigator.notification.alert("error during registration: "+ JSON.stringify(pushipresult));
