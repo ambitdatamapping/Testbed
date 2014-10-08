@@ -40,7 +40,7 @@ var app = {
 
         console.log('Received Event: ' + id);
         
-	Puship.PushipAppId = "gkUkUo607a1f4g3"; // Replace this with your Puship Application ID
+	Puship.PushipAppId = "YOnqYHUMSbLbMtZ"; // Replace this with your Puship Application ID
 	
 	/*
 	Puship.Common.UnRegister( 
@@ -55,7 +55,7 @@ var app = {
 	
 	
 	if (Puship.Common.GetCurrentOs()==Puship.OS.ANDROID){
-		var GCMCode = "63354000702"; // Replace this with your google senderID
+		var GCMCode = "165827403277"; // Replace this with your google senderID
 		Puship.GCM.Register(GCMCode,
 		{
 			successCallback: function (pushipresult){
